@@ -1,7 +1,9 @@
+
 let nam = "Ruchika"
 // console.log(nam.length)
 
 for(let i =0;i<nam.length;i++){
+    //console.log(i)
     console.log(nam[i])                   //   console.log(i) = output indexes ,,console.log(nam[i])  = arry letters
 }  
 
@@ -27,3 +29,5 @@ console.log(nam3.length)
 // for (let a= 0; a<=4;a++){
 // console.log(nam3[a])
 // }
+
+

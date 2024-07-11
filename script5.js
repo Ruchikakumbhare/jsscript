@@ -14,3 +14,6 @@
 let fruit = "mango"
 let flower = "rose"
 console.log(`my favrouit fruit is ${fruit} and fav flower is ${flower}`)
+
+let nam1 = "ruchika"
+console.log(nam1.length)
