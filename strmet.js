@@ -34,7 +34,7 @@ console.log(b)
 
 //7] startsWith()   8] endWit()
 let family = "papa"
-let m = family.startsWith("p")
+let m = family.startsWith("pap")
 console.log(m)
 
 let n = family.endsWith("a")
@@ -77,9 +77,8 @@ console.log(a4)
 
 // 14] split()
 let address = "ruchikakumbhare@123"
-let m1= address.split('k')
-console.log(m1)
-// let email = "chinmaydeshpande010@gmail.com"
-// let q14 = email.split('@')
-// console.log(q14)
-// //["chinmaydeshpande010","gmail.com"]
+let m1= address.split('i')
+console.log(m1)            //['ruchi','a','umbhare@123']
+
+let m2= address.split('r')
+console.log(m2)      //[ '', 'uchikakumbha', 'e@123' ]
