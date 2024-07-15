@@ -1,21 +1,22 @@
-/*
-let name1=["ruchika","neha","sara","diya","baby"]
-let [a1,a2,a3,a4,a5]=name1
-  console.log(a1[0,4])// output is  i 
-  console.log(a2)
-  console.log(a3)
-  console.log(a4)
-  console.log(a5)
 
+// //...................Program1
+// let name1=["ruchika","neha","sara","diya","baby"]
+// let [a1,a2,a3,a4,a5]=name1
+//   console.log(a1[0,4])// output is  i 
+//   console.log(a2)
+//   console.log(a3)
+//   console.log(a4)
+//   console.log(a5)
 
-let rollno = [20,10,40,50]
-let[a,b,c,d]=rollno
-console.log(a)
-console.log(b)
-console.log(c)
-console.log(d)
-*/
+// //......................program2
+// let rollno = [20,10,40,50]
+// let[a,b,c,d]=rollno
+// console.log(a)
+// console.log(b)
+// console.log(c)
+// console.log(d)
 
+//.....................program3
 // let myself={
 //   fname :"ruchika",
 //   lname :"kumbhare",
@@ -61,9 +62,9 @@ console.log(a)
 console.log(b)
 console.log(c)
 
-let {family:{cousins:x}}=bio
-console.log(x)
-console.log(x[3])
+let {family:{cousins:[x,x1,x2,x3]}}=bio
+console.log(x3)
+
 
 
 let{family:{hobby:{dance:y,cook:z}}}=bio

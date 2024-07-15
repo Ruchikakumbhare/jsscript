@@ -82,13 +82,13 @@ console.log(q3)
 // console.log(o)
 
 
-let mylist = ["ruchika","priya","aarya","aastha","palavi","kajal"]
-// let i =mylist.slice(1,5)
-//  console.log(i)
+// let mylist = ["ruchika","priya","aarya","aastha","palavi","kajal"]
+// // let i =mylist.slice(1,5)
+// //  console.log(i)
 
-let m =mylist.splice(1,3,"soali")
-console.log(m)
-console.log(mylist)
+// let m =mylist.splice(1,3,"soali")
+// console.log(m)
+// console.log(mylist)
 // let mylist = ["hindi","marathi","english","maths","geography","history"]
 //  let  i = mylist.splice(1,3,"chemistry")
 //  console.log(i)
@@ -111,13 +111,94 @@ console.log(mylist)
 
 
 
-let names = {
-    firstname : "Ruchika",
-    lastname : "Kumbhare",
-    Email : "ruchika@123",
-    contact : 123456789
-}
+// let names = {
+//     firstname : "Ruchika",
+//     lastname : "Kumbhare",
+//     Email : "ruchika@123",
+//     contact : 123456789
+// }
 
-for (let prop in names){
-    console.log(prop,names[prop])
-}
+// for (let prop in names){
+//     console.log(prop,names[prop])
+// }
+
+
+
+// //map()
+// let list = [2000,2001,2003,2004]
+//  let x =list.map(function(el,ind,arr){
+//     return 2024-el
+// })
+// console.log(x)
+
+// //filter
+// let num = [-20,-2,4,60,50,80,-1,-50]
+// let y = num.filter(function(el,ind,arr){
+//     return el <50
+// })
+// console.log(y)
+
+// let z = num.reduce(function(acc,el,ind,arr){
+//     return acc+el
+// },0)
+// console.log(z)
+
+// //forEach
+// let my = ["ruchi","priya"]
+// let x1 = my.forEach(function(el,ind,arr){
+//     console.log("kumbhare",el)
+// })
+
+// //indexOf
+// //findIndex
+// let number = [10,20,30,40,60,50]
+// let x2=number.findIndex(function(el,ind,arr){
+//     return el < 50
+// })
+// console.log(x2)
+
+// let x3=number.find(function(el,ind,arr){
+//     return el < 50
+// })
+// console.log(x3)
+
+// let a = number.every(function(el,ind,arr){
+//     return el < 50
+// })
+// console.log(a)
+// let a1 = number.some(function(el,ind,arr){
+//     return el < 50
+// })
+// console.log(a1)
+
+
+//reverse
+let mylist = ["ruchi","apelsha","khushi","diksha","preeti","real"]
+let list = ["ck","rk","pk"]
+let m =mylist.reverse()
+console.log(m)
+//sort
+let n = mylist.sort()
+console.log(n)
+//fill
+let m1 = mylist.fill("sanjana",5)
+console.log(m1)
+//concat
+let n1=mylist.concat(list)
+console.log(n1)
+//join
+let m3 =mylist.join("-")
+console.log(m3)
+//indexOf
+let a = mylist.indexOf("khushi")
+console.log(a)
+//at()
+let a1 = mylist.at("5")
+console.log(a1)
+//flat
+let nam = [[20,10],[30,40]]
+let q =nam.flat()
+console.log(q)
+//slice
+let p1 = list.slice(1)
+console.log(p1)
