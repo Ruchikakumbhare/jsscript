@@ -77,7 +77,7 @@ console.log(a4)
 
 // 14] split()
 let address = "ruchikakumbhare@123"
-let m1= address.split('i')
+let m1= address.split('k')
 console.log(m1)            //['ruchi','a','umbhare@123']
 
 let m2= address.split('r')
